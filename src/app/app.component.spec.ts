@@ -1,6 +1,8 @@
 import { TestBed } from '@angular/core/testing';
 import { RouterTestingModule } from '@angular/router/testing';
 import { AppComponent } from './app.component';
+import {Component} from '@angular/core';
+import {MatButtonToggleModule} from '@angular/material/button-toggle';
 
 describe('AppComponent', () => {
   beforeEach(async () => {
